@@ -4,7 +4,7 @@
 #include <geometry_msgs/Vector3.h>
 
 int main(int argc, char** argv){
-  ros::init(argc, argv, "debug_tf_tool");
+  ros::init(argc, argv, "/tf_footprint2map_pub");
   ros::NodeHandle node;
   ros::Rate rate(10.0);
 
