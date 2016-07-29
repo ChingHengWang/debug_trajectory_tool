@@ -1,13 +1,6 @@
 # debug_trajectory_tool
-* steps 
 
-        $. cd ~/catkin_ws/src
+* map_odom_trajectory_monitor
+  * custom_pkg/navigation/navfn
+  * src/tf_footprint2map_pub.cpp
 
-        $. git clone https://github.com/ChingHengWang/debug_trajectory_tool.git
-        
-        $. cp debug_trajectory_tool/custom_pkg/navigation/navfn . -fr
-        
-        $. ../
-        
-        $. catkin_make
-        
